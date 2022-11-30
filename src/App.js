@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ClassComponent2 from "./ClassComponent2"
+import ClassComponent from "./ClassComponent"
+import './App.css'
+function App(){
+  return(
+    <section>
+      <p>This is about React</p>
+      <h1>Hello Good Morning Everyone</h1>
+      <ClassComponent/>
+      <img src="https://mechomotive.com/wp-content/uploads/2021/08/react.jpg"alt=""/>
+      <ClassComponent2/>
+    </section>
+    )
 }
-
 export default App;
+
