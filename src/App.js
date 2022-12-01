@@ -1,4 +1,4 @@
-import ClassComponent2 from "./ClassComponent2"
+/*import ClassComponent2 from "./ClassComponent2"
 import ClassComponent from "./ClassComponent"
 import './App.css'
 function App(){
@@ -13,4 +13,30 @@ function App(){
     )
 }
 export default App;
+import PropsExample from "./PropsExample"
+function App(){
+  return(
+    <div>
+    <h1>This is about props example</h1>
+    <PropsExample name="vasavi"age="19"/>
+    </div>
+    )
+}
+export default App*/
 
+/*import PropsExample from "./PropsExample"*/
+/*import FuncPropExample from "./FuncPropExample"*/
+import StateExample from "./StateExample"
+function App(){
+  return(
+    <div>
+    {/*<h1>This is about props concept</h1>
+       <PropsExample name="vasavi"age="19" Roll="74"/>
+       <PropsExample name="tejasri"age="20" Roll="32"/>
+       <PropsExample name="savithri"age="20" Roll="12"/>
+       <FuncPropExample framework="React" year="2013"/>*/}
+       <StateExample/>
+    </div>
+    )
+}
+export default App
