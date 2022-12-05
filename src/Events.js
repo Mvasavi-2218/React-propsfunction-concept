@@ -2,12 +2,15 @@ import React from 'react'
 
 export default class Events extends React.Component {
     state={
-        userName:""
+        userName:"",
+        Rollnumber:""
     }
     handleClick=()=>{
         console.log(this.state.userName)
+        console.log(this.state.Rollnumber)
         this.setState({
-            userName:""
+            userName:"",
+            Rollnumber:""
         })
     }
     handleUser=(e)=>{
@@ -24,7 +27,12 @@ export default class Events extends React.Component {
         type="text" 
         placeholder="Enter your Name" 
         name="userName"
-        onChange={this.handleUser}/>
+        onChange={this.handleUser}
+        />
+        <p><input
+        type="text" placeholder="Enter your Rollnumber" name="Rollnumber" value={this.state.Rollnumber}
+        onChange={this.handleUser}
+        /></p>
         <p><button onClick={this.handleClick}>Submit</button></p>
       </div>
     )
