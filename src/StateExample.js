@@ -1,17 +1,17 @@
-import React from 'react'
-
-export default class StateExample extends React.Component {
-    state={
-        name:"react",
-        age:20
-    }
+import React from "react"
+export default class StateExample extends React.Component{
+  state={
+    name:"react",
+    age:"20"
+  }
   render(){
-    return (
+    return(
       <div>
-        StateExample
-        <p>{this.state.name}</p>
-        <p>{this.state.age}</p>
-        </div>
-    )
+      StateExample
+      <p>{this.state.name}</p>
+      <p>{this.state.age}</p>
+      </div>
+      )
+
   }
 }

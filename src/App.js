@@ -26,8 +26,8 @@ export default App*/
 
 /*import PropsExample from "./PropsExample"*/
 /*import FuncPropExample from "./FuncPropExample"*/
-/*import StateExample from "./StateExample"
-import Events from "./Events"*/
+/*import StateExample from "./StateExample"*/
+import Events from "./Events"
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from "./Components/Home"
 import About from "./Components/About"
@@ -51,8 +51,8 @@ function App(){
        <PropsExample name="tejasri"age="20" Roll="32"/>
        <PropsExample name="savithri"age="20" Roll="12"/>
        <FuncPropExample framework="React" year="2013"/>
-  <StateExample/>
-  <Events/>*/}
+  <StateExample/>*/}
+  <Events/>
     </div>
     )
 }

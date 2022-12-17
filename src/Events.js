@@ -30,7 +30,10 @@ export default class Events extends React.Component {
         onChange={this.handleUser}
         />
         <p><input
-        type="text" placeholder="Enter your Rollnumber" name="Rollnumber" value={this.state.Rollnumber}
+        type="text" 
+        placeholder="Enter your Rollnumber" 
+        name="Rollnumber" 
+        value={this.state.Rollnumber}
         onChange={this.handleUser}
         /></p>
         <p><button onClick={this.handleClick}>Submit</button></p>
